@@ -30,16 +30,13 @@ for line in f:
 prob = pathfind_problem.Problem(goal_state=[goal_x, goal_y], initial_state=[start_x, start_y], world=world)
 solution = astar.cost_search(prob)
 
-print(solution)
-parent = solution
-new_world = world.copy()
+parent = solution.parent
 
-while parent:
-    print(parent.state)
+while parent.parent:
     world[parent.state[0]][parent.state[1]] = "x"
     parent = parent.parent
 
-for line in new_world:
+for line in world:
     string = ""
     for char in line:
         string += char

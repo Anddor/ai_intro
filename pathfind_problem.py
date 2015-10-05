@@ -23,27 +23,37 @@ class Problem(object):
     def generate_children(self, node):
         children = []
         # North
-        if not node.state[1]-1 < 0 or not self.world[node.state[0]][node.state[1] - 1] == "#":
-            state = [node.state[0], node.state[1] - 1]
-            child = search_node.SearchNode(state, node.g + 1, self.heuristic(state), node)
-            children.append(child)
-
+        try:
+            if not self.world[node.state[0]][node.state[1] - 1] == "#":
+                state = [node.state[0], node.state[1] - 1]
+                child = search_node.SearchNode(state, node.g + 1, self.heuristic(state), node)
+                children.append(child)
+        except IndexError:
+            pass
         # East
-        if not node.state[0]+1 > len(self.world[0]) or not self.world[node.state[0] + 1][node.state[1]] == "#":
-            state = [node.state[0] + 1, node.state[1]]
-            child = search_node.SearchNode(state, node.g + 1, self.heuristic(state), node)
-            children.append(child)
-
+        try:
+            if not self.world[node.state[0] + 1][node.state[1]] == "#":
+                state = [node.state[0] + 1, node.state[1]]
+                child = search_node.SearchNode(state, node.g + 1, self.heuristic(state), node)
+                children.append(child)
+        except IndexError:
+            pass
         # West
-        if not node.state[0]-1 < 0 or not self.world[node.state[0] - 1][node.state[1]] == "#":
-            state = [node.state[0] - 1, node.state[1]]
-            child = search_node.SearchNode(state, node.g + 1, self.heuristic(state), node)
-            children.append(child)
+        try:
+            if not self.world[node.state[0] - 1][node.state[1]] == "#":
+                state = [node.state[0] - 1, node.state[1]]
+                child = search_node.SearchNode(state, node.g + 1, self.heuristic(state), node)
+                children.append(child)
+        except IndexError:
+            pass
 
         # South
-        if not node.state[1]+1 > len(self.world) or not self.world[node.state[0]][node.state[1] + 1] == "#":
-            state = [node.state[0], node.state[1] + 1]
-            child = search_node.SearchNode(state, node.g + 1, self.heuristic(state), node)
-            children.append(child)
+        try:
+            if not self.world[node.state[0]][node.state[1] + 1] == "#":
 
+                state = [node.state[0], node.state[1] + 1]
+                child = search_node.SearchNode(state, node.g + 1, self.heuristic(state), node)
+                children.append(child)
+        except IndexError:
+            pass
         return children

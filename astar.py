@@ -9,11 +9,8 @@ def cost_search(problem):
     while frontier:
         active = frontier.pop()
 
-        print(active.state)
         if problem.goal_test(active.state):
             # We have found a solution
-            print("solution")
-            print("active", active)
             return active
 
         visited.append(active)
