@@ -1,10 +1,9 @@
 import search_node
-import prique
 
 
-def cost_search(problem):
-    node = search_node.SearchNode(problem.initial_state, 0, problem.heuristic(problem.initial_state), 0)
-    frontier = prique.Frontier()
+def cost_search(problem, queue):
+    node = search_node.SearchNode(problem.initial_state, 0, problem.heuristic_eval(problem.initial_state), 0)
+    frontier = queue
     frontier.insert(node)
     visited = []
 
@@ -18,20 +17,20 @@ def cost_search(problem):
         children = problem.generate_children(active)
 
         for child in children:
-            # check if visited
+            # first, check if visited
             if child.state in visited:
-                # No further actions
+                # If node already visited, no
                 continue
             # check if in frontier
-            elif frontier.contains(child):
-                old = frontier.get(child.state)
+            elif child in frontier:
+
+                old = frontier.get(child)
                 if child.g < old.g:
                     old.replace_with(child)
             # append if in neither
             else:
                 frontier.insert(child)
 
-        # Sort list by ascending f
+                # Sort list by ascending f
 
     return False
-

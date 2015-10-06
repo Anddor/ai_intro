@@ -1,14 +1,23 @@
 import search_node
-import math
 
 __author__ = 'Andreas'
 
 
 class Problem(object):
-    def __init__(self, goal_state, initial_state, world):
+    def __init__(self, goal_state, initial_state, world, heuristic):
         self.goal_state = goal_state
         self.initial_state = initial_state
         self.world = world
+
+        if heuristic:
+            self.heuristic_eval = lambda state: (
+                abs(state[0] - self.goal_state[0]) + abs(state[1] - self.goal_state[1])
+            )
+        else:
+            self.heuristic_eval = lambda node: (
+                0
+            )
+
         self.COST = {  # List of costs
                        "w": 100,  # Water
                        "m": 50,  # Mountains
@@ -26,9 +35,9 @@ class Problem(object):
     def goal_test(self, state):
         return state == self.goal_state
 
-    def heuristic(self, state):
-        distance = math.fabs(state[0] - self.goal_state[0]) + math.fabs(state[1] - self.goal_state[1])
-        return distance
+    # def heuristic(self, state):
+    #   distance = math.fabs(state[0] - self.goal_state[0]) + math.fabs(state[1] - self.goal_state[1])
+    #  return distance
 
     def generate_children(self, node):
         children = []
@@ -36,28 +45,28 @@ class Problem(object):
         if node.state[1] > 0:
             if not self.world[node.state[0]][node.state[1] - 1] == "#":
                 state = (node.state[0], node.state[1] - 1)
-                child = search_node.SearchNode(state, node.g + self.get_cost(state), self.heuristic(state), node)
+                child = search_node.SearchNode(state, node.g + self.get_cost(state), self.heuristic_eval(state), node)
                 children.append(child)
 
         # East
         if node.state[0] < len(self.world) - 1:
             if not self.world[node.state[0] + 1][node.state[1]] == "#":
                 state = (node.state[0] + 1, node.state[1])
-                child = search_node.SearchNode(state, node.g + self.get_cost(state), self.heuristic(state), node)
+                child = search_node.SearchNode(state, node.g + self.get_cost(state), self.heuristic_eval(state), node)
                 children.append(child)
 
         # West
         if node.state[0] > 0:
             if not self.world[node.state[0] - 1][node.state[1]] == "#":
                 state = (node.state[0] - 1, node.state[1])
-                child = search_node.SearchNode(state, node.g + self.get_cost(state), self.heuristic(state), node)
+                child = search_node.SearchNode(state, node.g + self.get_cost(state), self.heuristic_eval(state), node)
                 children.append(child)
 
         # South
         if node.state[1] < len(self.world[0]) - 1:
             if not self.world[node.state[0]][node.state[1] + 1] == "#":
                 state = (node.state[0], node.state[1] + 1)
-                child = search_node.SearchNode(state, node.g + self.get_cost(state), self.heuristic(state), node)
+                child = search_node.SearchNode(state, node.g + self.get_cost(state), self.heuristic_eval(state), node)
                 children.append(child)
 
         return children

@@ -15,6 +15,9 @@ class SearchNode:
         else:
             return self.get_f() < other.get_f()
 
+    def __eq__(self, other):
+        return self.state == other.state
+
     def get_f(self):
         """generates and returns the total cost of the node"""
         return self.g + self.h
