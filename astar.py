@@ -10,8 +10,6 @@ def cost_search(problem):
 
     while frontier:
         active = frontier.pop()
-        problem.print_state(active.state)
-
         if problem.goal_test(active.state):
             # We have found a solution
             return active, frontier, visited
@@ -27,7 +25,7 @@ def cost_search(problem):
             # check if in frontier
             elif frontier.contains(child):
                 old = frontier.get(child.state)
-                if child.get_f() < old.get_f():
+                if child.g < old.g:
                     old.replace_with(child)
             # append if in neither
             else:
