@@ -3,7 +3,7 @@ import pathfind_problem
 
 __author__ = 'Andreas'
 
-f = open('boards/board-1-1.txt', 'r')
+f = open('boards/board-1-2.txt', 'r')
 world = []
 x = 0
 start_x = 0
@@ -27,7 +27,7 @@ for line in f:
     x += 1
     world.append(l)
 
-prob = pathfind_problem.Problem(goal_state=[goal_x, goal_y], initial_state=[start_x, start_y], world=world)
+prob = pathfind_problem.Problem(goal_state=(goal_x, goal_y), initial_state=(start_x, start_y), world=world)
 solution = astar.cost_search(prob)
 
 parent = solution.parent

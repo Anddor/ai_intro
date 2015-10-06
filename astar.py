@@ -1,33 +1,39 @@
 import search_node
+import prique
 
 
 def cost_search(problem):
     node = search_node.SearchNode(problem.initial_state, 0, problem.heuristic(problem.initial_state), 0)
-    frontier = [node]
+    frontier = prique.Frontier()
+    frontier.insert(node)
     visited = []
 
     while frontier:
         active = frontier.pop()
+        problem.print_state(active.state)
 
         if problem.goal_test(active.state):
             # We have found a solution
             return active
 
-        visited.append(active)
-        children = problem.generate_children(active)  # how to make sure generated children will be the same?
+        visited.append(active.state)
+        children = problem.generate_children(active)
 
         for child in children:
-            for node in visited:
-                if child.state == node.state:
-                    break
-            for node in frontier:
-                if child.state == node.state and child.get_f() < node.get_f():
-                    node.replace_with(child)
-                break
-            if problem.goal_test(child.state):
-                return child
-            frontier.append(child)
+            # check if visited
+            if child.state in visited:
+                # No further actions
+                continue
+            # check if in frontier
+            elif frontier.contains(child):
+                old = frontier.get(child.state)
+                if child.get_f() < old.get_f():
+                    old.replace_with(child)
+            # append if in neither
+            else:
+                frontier.insert(child)
 
         # Sort list by ascending f
-        frontier.sort(key=search_node.SearchNode.get_f, reverse=True)
+
     return False
+
