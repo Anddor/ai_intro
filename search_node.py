@@ -16,6 +16,7 @@ class SearchNode:
             return self.get_f() < other.get_f()
 
     def __eq__(self, other):
+        """Overrides the equality-operator to compare states"""
         return self.state == other.state
 
     def get_f(self):

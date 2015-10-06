@@ -9,6 +9,7 @@ class Problem(object):
         self.initial_state = initial_state
         self.world = world
 
+        # If the heuristic parameter is true, a heuristic value is computed for nodes. If not, value is set to 0.
         if heuristic:
             self.heuristic_eval = lambda state: (
                 abs(state[0] - self.goal_state[0]) + abs(state[1] - self.goal_state[1])
@@ -34,10 +35,6 @@ class Problem(object):
 
     def goal_test(self, state):
         return state == self.goal_state
-
-    # def heuristic(self, state):
-    #   distance = math.fabs(state[0] - self.goal_state[0]) + math.fabs(state[1] - self.goal_state[1])
-    #  return distance
 
     def generate_children(self, node):
         children = []

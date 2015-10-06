@@ -1,8 +1,10 @@
 from sys import stdin
+import sys
 import astar
 import pathfind_problem
 import board_image_gen
 import prique
+import argparse
 
 __author__ = 'Andreas'
 f = stdin.readlines()
@@ -14,9 +16,14 @@ start_y = 0
 goal_x = 0
 goal_y = 0
 
-ALGORITHM_TYPE = "b"
+args = sys.argv
+if len(args) > 1:
+    ALGORITHM_TYPE = args[1]
+else:
+    ALGORITHM_TYPE = "astar"
 
-
+print(sys.argv)
+print(ALGORITHM_TYPE)
 
 # Parse file:
 for line in f:
