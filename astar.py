@@ -14,7 +14,7 @@ def cost_search(problem):
 
         if problem.goal_test(active.state):
             # We have found a solution
-            return active
+            return active, frontier, visited
 
         visited.append(active.state)
         children = problem.generate_children(active)

@@ -1,6 +1,7 @@
 from sys import stdin
 import astar
 import pathfind_problem
+import board_image_gen
 
 __author__ = 'Andreas'
 f = stdin.readlines()
@@ -15,7 +16,7 @@ goal_y = 0
 for line in f:
     l = []
     y = 0
-    for char in line:
+    for char in line.strip():
         if char == "A":
             start_x = x
             start_y = y
@@ -29,18 +30,26 @@ for line in f:
     world.append(l)
 
 # Create problem file:
+board_gen = board_image_gen.Board_img_gen(len(world[0]), len(world), 50)
+board_gen.draw_world(world)
+board_gen.show_img()
 prob = pathfind_problem.Problem(goal_state=(goal_x, goal_y), initial_state=(start_x, start_y), world=world)
-# Do search:
-solution = astar.cost_search(prob)
 
+solution, frontier, visited = astar.cost_search(prob)
 parent = solution.parent
+board_gen.draw_open_closed(visited, "x")
+board_gen.draw_open_closed([node.state for node in frontier.h], "o")
+
+path = []
 
 while parent.parent:
-    world[parent.state[0]][parent.state[1]] = "x"
+    path.append(parent.state)
     parent = parent.parent
 
-for line in world:
-    string = ""
-    for char in line:
-        string += char
-    print(string)
+board_gen.draw_open_closed(path, " >")
+
+
+board_gen.show_img()
+
+
+
