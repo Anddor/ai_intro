@@ -1,4 +1,4 @@
-import search_node
+from astar import search_node
 
 __author__ = 'Andreas'
 
@@ -19,7 +19,7 @@ class Problem(object):
                 0
             )
 
-        self.COST = {  # List of costs
+        self.COST = {  # List of costs for different cells
                        "w": 100,  # Water
                        "m": 50,  # Mountains
                        "f": 10,  # Forests
@@ -31,14 +31,17 @@ class Problem(object):
                        }
 
     def get_cost(self, pos_tuple):
+        """returns the cell cost of a given location in the world"""
         return self.COST[self.world[pos_tuple[0]][pos_tuple[1]]]
 
     def goal_test(self, state):
         return state == self.goal_state
 
     def generate_children(self, node):
+        """Generates and returns all the children of a given node"""
         children = []
         # North
+        # If the node would be outside of the board, or contain a wall, we do not generate it.
         if node.state[1] > 0:
             if not self.world[node.state[0]][node.state[1] - 1] == "#":
                 state = (node.state[0], node.state[1] - 1)

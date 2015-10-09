@@ -1,5 +1,6 @@
-import search_node
 import math
+
+from astar import search_node
 
 __author__ = 'Andreas'
 

@@ -1,4 +1,4 @@
-import search_node
+from astar import search_node
 
 
 def cost_search(problem, queue):
@@ -39,7 +39,5 @@ def cost_search(problem, queue):
             else:
                 # node is put in frontier if in neither visited nor
                 frontier.insert(child)
-
-                # Sort list by ascending f
 
     return False

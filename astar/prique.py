@@ -8,7 +8,6 @@ class Frontier:
     def __init__(self):
         self.d = dict()
         self.h = []
-        self.insert_count = 0
 
     def __contains__(self, node):
         """returns true if a node with the same state is contained in the dictionary"""
@@ -25,10 +24,11 @@ class Frontier:
         """returns and removes the node with the lowest f-value"""
         # pops node from heap
         node = heapq.heappop(self.h)
-        # removes value from dictionary as well
+        # removes node from dictionary as well
         return self.d.pop(node.state, None)
 
     def get(self, node):
+        """Gets the node with state similar to a given node"""
         return self.d[node.state]
 
 
@@ -48,10 +48,12 @@ class BfsQueue:
         return self.h.pop(0)
 
     def get(self, node):
+        """Gets the node with state similar to a given node"""
         for item in self.h:
             if item == node:
                 return node
         return False
 
     def insert(self, node):
+        """appends node to the end of the queue"""
         self.h.append(node)

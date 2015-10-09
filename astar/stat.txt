@@ -1,0 +1,120 @@
+
+-----------------------------------------
+board-1-1
+------- Astar --------
+Path length:  17
+Open nodes:  19
+Closed nodes:  22
+------- bfs --------
+Path length:  17
+Open nodes:  6
+Closed nodes:  118
+------- dijkstra --------
+Path length:  17
+Open nodes:  6
+Closed nodes:  120
+
+-----------------------------------------
+board-1-2
+------- Astar --------
+Path length:  34
+Open nodes:  16
+Closed nodes:  59
+------- bfs --------
+Path length:  34
+Open nodes:  6
+Closed nodes:  110
+------- dijkstra --------
+Path length:  34
+Open nodes:  6
+Closed nodes:  112
+
+-----------------------------------------
+board-1-3
+------- Astar --------
+Path length:  29
+Open nodes:  15
+Closed nodes:  29
+------- bfs --------
+Path length:  29
+Open nodes:  0
+Closed nodes:  125
+------- dijkstra --------
+Path length:  29
+Open nodes:  0
+Closed nodes:  125
+
+-----------------------------------------
+board-1-4
+------- Astar --------
+Path length:  27
+Open nodes:  3
+Closed nodes:  33
+------- bfs --------
+Path length:  27
+Open nodes:  2
+Closed nodes:  43
+------- dijkstra --------
+Path length:  27
+Open nodes:  2
+Closed nodes:  44
+
+-----------------------------------------
+board-2-1
+------- Astar --------
+Path length:  80
+Open nodes:  38
+Closed nodes:  237
+------- bfs --------
+Path length:  428
+Open nodes:  18
+Closed nodes:  82
+------- dijkstra --------
+Path length:  80
+Open nodes:  38
+Closed nodes:  267
+
+-----------------------------------------
+board-2-2
+------- Astar --------
+Path length:  73
+Open nodes:  67
+Closed nodes:  203
+------- bfs --------
+Path length:  271
+Open nodes:  9
+Closed nodes:  324
+------- dijkstra --------
+Path length:  73
+Open nodes:  40
+Closed nodes:  284
+
+-----------------------------------------
+board-2-3
+------- Astar --------
+Path length:  597
+Open nodes:  31
+Closed nodes:  301
+------- bfs --------
+Path length:  897
+Open nodes:  10
+Closed nodes:  319
+------- dijkstra --------
+Path length:  597
+Open nodes:  37
+Closed nodes:  324
+
+-----------------------------------------
+board-2-4
+------- Astar --------
+Path length:  162
+Open nodes:  73
+Closed nodes:  171
+------- bfs --------
+Path length:  307
+Open nodes:  16
+Closed nodes:  40
+------- dijkstra --------
+Path length:  162
+Open nodes:  77
+Closed nodes:  187
