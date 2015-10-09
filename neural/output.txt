@@ -1,0 +1,694 @@
+
+Goal: AND - cycle:  1
+-------- After epoch 1: --------
+errors: 3 weight 1: -0.1312 weight 2: 0.06975 
+-------- After epoch 2: --------
+errors: 3 weight 1: -0.0312 weight 2: 0.06975 
+-------- After epoch 3: --------
+errors: 4 weight 1: -0.0312 weight 2: 0.06975 
+-------- After epoch 4: --------
+errors: 4 weight 1: -0.0312 weight 2: 0.06975 
+-------- After epoch 5: --------
+errors: 4 weight 1: -0.0312 weight 2: 0.06975 
+-------- After epoch 6: --------
+errors: 4 weight 1: -0.0312 weight 2: 0.06975 
+-------- After epoch 7: --------
+errors: 4 weight 1: -0.0312 weight 2: 0.06975 
+-------- After epoch 8: --------
+errors: 4 weight 1: -0.0312 weight 2: 0.06975 
+-------- After epoch 9: --------
+errors: 4 weight 1: -0.0312 weight 2: 0.06975 
+-------- After epoch 10: --------
+errors: 4 weight 1: -0.0312 weight 2: 0.06975 
+-------- After epoch 11: --------
+errors: 4 weight 1: -0.0312 weight 2: 0.06975 
+-------- After epoch 12: --------
+errors: 4 weight 1: -0.0312 weight 2: 0.06975 
+-------- After epoch 13: --------
+errors: 4 weight 1: -0.0312 weight 2: 0.06975 
+-------- After epoch 14: --------
+errors: 4 weight 1: -0.0312 weight 2: 0.06975 
+-------- After epoch 15: --------
+errors: 4 weight 1: -0.0312 weight 2: 0.06975 
+-------- After epoch 16: --------
+errors: 4 weight 1: -0.0312 weight 2: 0.06975 
+-------- After epoch 17: --------
+errors: 4 weight 1: -0.0312 weight 2: 0.06975 
+-------- After epoch 18: --------
+errors: 4 weight 1: -0.0312 weight 2: 0.06975 
+-------- After epoch 19: --------
+errors: 4 weight 1: -0.0312 weight 2: 0.06975 
+-------- After epoch 20: --------
+errors: 4 weight 1: -0.0312 weight 2: 0.06975 
+-------- After epoch 21: --------
+errors: 4 weight 1: -0.0312 weight 2: 0.06975 
+-------- After epoch 22: --------
+errors: 4 weight 1: -0.0312 weight 2: 0.06975 
+-------- After epoch 23: --------
+errors: 4 weight 1: -0.0312 weight 2: 0.06975 
+-------- After epoch 24: --------
+errors: 4 weight 1: -0.0312 weight 2: 0.06975 
+-------- After epoch 25: --------
+errors: 4 weight 1: -0.0312 weight 2: 0.06975 
+-------- After epoch 26: --------
+errors: 4 weight 1: -0.0312 weight 2: 0.06975 
+-------- After epoch 27: --------
+errors: 4 weight 1: -0.0312 weight 2: 0.06975 
+-------- After epoch 28: --------
+errors: 4 weight 1: -0.0312 weight 2: 0.06975 
+-------- After epoch 29: --------
+errors: 4 weight 1: -0.0312 weight 2: 0.06975 
+
+Goal: AND - cycle:  2
+-------- After epoch 1: --------
+errors: 1 weight 1: 0.2483 weight 2: -0.2647 
+-------- After epoch 2: --------
+errors: 2 weight 1: 0.2483 weight 2: -0.1647 
+-------- After epoch 3: --------
+errors: 2 weight 1: 0.2483 weight 2: -0.0647 
+-------- After epoch 4: --------
+errors: 2 weight 1: 0.2483 weight 2: 0.0353 
+-------- After epoch 5: --------
+errors: 2 weight 1: 0.2483 weight 2: 0.1353 
+-------- After epoch 6: --------
+errors: 1 weight 1: 0.1483 weight 2: 0.1353 
+-------- After epoch 7: --------
+errors: 0 weight 1: 0.1483 weight 2: 0.1353 
+
+Goal: AND - cycle:  3
+-------- After epoch 1: --------
+errors: 3 weight 1: -0.4863 weight 2: 0.294995 
+-------- After epoch 2: --------
+errors: 2 weight 1: -0.4863 weight 2: 0.194995 
+-------- After epoch 3: --------
+errors: 2 weight 1: -0.4863 weight 2: 0.094995 
+-------- After epoch 4: --------
+errors: 3 weight 1: -0.3863 weight 2: 0.094995 
+-------- After epoch 5: --------
+errors: 4 weight 1: -0.3863 weight 2: 0.094995 
+-------- After epoch 6: --------
+errors: 4 weight 1: -0.3863 weight 2: 0.094995 
+-------- After epoch 7: --------
+errors: 4 weight 1: -0.3863 weight 2: 0.094995 
+-------- After epoch 8: --------
+errors: 4 weight 1: -0.3863 weight 2: 0.094995 
+-------- After epoch 9: --------
+errors: 4 weight 1: -0.3863 weight 2: 0.094995 
+-------- After epoch 10: --------
+errors: 4 weight 1: -0.3863 weight 2: 0.094995 
+-------- After epoch 11: --------
+errors: 4 weight 1: -0.3863 weight 2: 0.094995 
+-------- After epoch 12: --------
+errors: 4 weight 1: -0.3863 weight 2: 0.094995 
+-------- After epoch 13: --------
+errors: 4 weight 1: -0.3863 weight 2: 0.094995 
+-------- After epoch 14: --------
+errors: 4 weight 1: -0.3863 weight 2: 0.094995 
+-------- After epoch 15: --------
+errors: 4 weight 1: -0.3863 weight 2: 0.094995 
+-------- After epoch 16: --------
+errors: 4 weight 1: -0.3863 weight 2: 0.094995 
+-------- After epoch 17: --------
+errors: 4 weight 1: -0.3863 weight 2: 0.094995 
+-------- After epoch 18: --------
+errors: 4 weight 1: -0.3863 weight 2: 0.094995 
+-------- After epoch 19: --------
+errors: 4 weight 1: -0.3863 weight 2: 0.094995 
+-------- After epoch 20: --------
+errors: 4 weight 1: -0.3863 weight 2: 0.094995 
+-------- After epoch 21: --------
+errors: 4 weight 1: -0.3863 weight 2: 0.094995 
+-------- After epoch 22: --------
+errors: 4 weight 1: -0.3863 weight 2: 0.094995 
+-------- After epoch 23: --------
+errors: 4 weight 1: -0.3863 weight 2: 0.094995 
+-------- After epoch 24: --------
+errors: 4 weight 1: -0.3863 weight 2: 0.094995 
+-------- After epoch 25: --------
+errors: 4 weight 1: -0.3863 weight 2: 0.094995 
+-------- After epoch 26: --------
+errors: 4 weight 1: -0.3863 weight 2: 0.094995 
+-------- After epoch 27: --------
+errors: 4 weight 1: -0.3863 weight 2: 0.094995 
+-------- After epoch 28: --------
+errors: 4 weight 1: -0.3863 weight 2: 0.094995 
+-------- After epoch 29: --------
+errors: 4 weight 1: -0.3863 weight 2: 0.094995 
+
+Goal: AND - cycle:  4
+-------- After epoch 1: --------
+errors: 2 weight 1: 0.2504 weight 2: -0.407409 
+-------- After epoch 2: --------
+errors: 3 weight 1: 0.2504 weight 2: -0.307409 
+-------- After epoch 3: --------
+errors: 2 weight 1: 0.1504 weight 2: -0.307409 
+-------- After epoch 4: --------
+errors: 3 weight 1: 0.1504 weight 2: -0.207409 
+-------- After epoch 5: --------
+errors: 4 weight 1: 0.1504 weight 2: -0.207409 
+-------- After epoch 6: --------
+errors: 4 weight 1: 0.1504 weight 2: -0.207409 
+-------- After epoch 7: --------
+errors: 4 weight 1: 0.1504 weight 2: -0.207409 
+-------- After epoch 8: --------
+errors: 4 weight 1: 0.1504 weight 2: -0.207409 
+-------- After epoch 9: --------
+errors: 4 weight 1: 0.1504 weight 2: -0.207409 
+-------- After epoch 10: --------
+errors: 4 weight 1: 0.1504 weight 2: -0.207409 
+-------- After epoch 11: --------
+errors: 4 weight 1: 0.1504 weight 2: -0.207409 
+-------- After epoch 12: --------
+errors: 4 weight 1: 0.1504 weight 2: -0.207409 
+-------- After epoch 13: --------
+errors: 4 weight 1: 0.1504 weight 2: -0.207409 
+-------- After epoch 14: --------
+errors: 4 weight 1: 0.1504 weight 2: -0.207409 
+-------- After epoch 15: --------
+errors: 4 weight 1: 0.1504 weight 2: -0.207409 
+-------- After epoch 16: --------
+errors: 4 weight 1: 0.1504 weight 2: -0.207409 
+-------- After epoch 17: --------
+errors: 4 weight 1: 0.1504 weight 2: -0.207409 
+-------- After epoch 18: --------
+errors: 4 weight 1: 0.1504 weight 2: -0.207409 
+-------- After epoch 19: --------
+errors: 4 weight 1: 0.1504 weight 2: -0.207409 
+-------- After epoch 20: --------
+errors: 4 weight 1: 0.1504 weight 2: -0.207409 
+-------- After epoch 21: --------
+errors: 4 weight 1: 0.1504 weight 2: -0.207409 
+-------- After epoch 22: --------
+errors: 4 weight 1: 0.1504 weight 2: -0.207409 
+-------- After epoch 23: --------
+errors: 4 weight 1: 0.1504 weight 2: -0.207409 
+-------- After epoch 24: --------
+errors: 4 weight 1: 0.1504 weight 2: -0.207409 
+-------- After epoch 25: --------
+errors: 4 weight 1: 0.1504 weight 2: -0.207409 
+-------- After epoch 26: --------
+errors: 4 weight 1: 0.1504 weight 2: -0.207409 
+-------- After epoch 27: --------
+errors: 4 weight 1: 0.1504 weight 2: -0.207409 
+-------- After epoch 28: --------
+errors: 4 weight 1: 0.1504 weight 2: -0.207409 
+-------- After epoch 29: --------
+errors: 4 weight 1: 0.1504 weight 2: -0.207409 
+
+Goal: AND - cycle:  5
+-------- After epoch 1: --------
+errors: 2 weight 1: -0.2899 weight 2: 0.359819 
+-------- After epoch 2: --------
+errors: 3 weight 1: -0.1899 weight 2: 0.359819 
+-------- After epoch 3: --------
+errors: 2 weight 1: -0.1899 weight 2: 0.259819 
+-------- After epoch 4: --------
+errors: 3 weight 1: -0.0899 weight 2: 0.259819 
+-------- After epoch 5: --------
+errors: 2 weight 1: -0.0899 weight 2: 0.159819 
+-------- After epoch 6: --------
+errors: 3 weight 1: 0.0101 weight 2: 0.159819 
+-------- After epoch 7: --------
+errors: 4 weight 1: 0.0101 weight 2: 0.159819 
+-------- After epoch 8: --------
+errors: 4 weight 1: 0.0101 weight 2: 0.159819 
+-------- After epoch 9: --------
+errors: 4 weight 1: 0.0101 weight 2: 0.159819 
+-------- After epoch 10: --------
+errors: 4 weight 1: 0.0101 weight 2: 0.159819 
+-------- After epoch 11: --------
+errors: 4 weight 1: 0.0101 weight 2: 0.159819 
+-------- After epoch 12: --------
+errors: 4 weight 1: 0.0101 weight 2: 0.159819 
+-------- After epoch 13: --------
+errors: 4 weight 1: 0.0101 weight 2: 0.159819 
+-------- After epoch 14: --------
+errors: 4 weight 1: 0.0101 weight 2: 0.159819 
+-------- After epoch 15: --------
+errors: 4 weight 1: 0.0101 weight 2: 0.159819 
+-------- After epoch 16: --------
+errors: 4 weight 1: 0.0101 weight 2: 0.159819 
+-------- After epoch 17: --------
+errors: 4 weight 1: 0.0101 weight 2: 0.159819 
+-------- After epoch 18: --------
+errors: 4 weight 1: 0.0101 weight 2: 0.159819 
+-------- After epoch 19: --------
+errors: 4 weight 1: 0.0101 weight 2: 0.159819 
+-------- After epoch 20: --------
+errors: 4 weight 1: 0.0101 weight 2: 0.159819 
+-------- After epoch 21: --------
+errors: 4 weight 1: 0.0101 weight 2: 0.159819 
+-------- After epoch 22: --------
+errors: 4 weight 1: 0.0101 weight 2: 0.159819 
+-------- After epoch 23: --------
+errors: 4 weight 1: 0.0101 weight 2: 0.159819 
+-------- After epoch 24: --------
+errors: 4 weight 1: 0.0101 weight 2: 0.159819 
+-------- After epoch 25: --------
+errors: 4 weight 1: 0.0101 weight 2: 0.159819 
+-------- After epoch 26: --------
+errors: 4 weight 1: 0.0101 weight 2: 0.159819 
+-------- After epoch 27: --------
+errors: 4 weight 1: 0.0101 weight 2: 0.159819 
+-------- After epoch 28: --------
+errors: 4 weight 1: 0.0101 weight 2: 0.159819 
+-------- After epoch 29: --------
+errors: 4 weight 1: 0.0101 weight 2: 0.159819 
+
+Goal: AND - cycle:  6
+-------- After epoch 1: --------
+errors: 2 weight 1: 0.0748 weight 2: -0.375633 
+-------- After epoch 2: --------
+errors: 2 weight 1: 0.0748 weight 2: -0.275633 
+-------- After epoch 3: --------
+errors: 2 weight 1: 0.0748 weight 2: -0.175633 
+-------- After epoch 4: --------
+errors: 2 weight 1: 0.0748 weight 2: -0.075633 
+-------- After epoch 5: --------
+errors: 2 weight 1: 0.0748 weight 2: 0.024367 
+-------- After epoch 6: --------
+errors: 2 weight 1: 0.0748 weight 2: 0.124367 
+-------- After epoch 7: --------
+errors: 3 weight 1: 0.0748 weight 2: 0.124367 
+-------- After epoch 8: --------
+errors: 3 weight 1: 0.0748 weight 2: 0.124367 
+-------- After epoch 9: --------
+errors: 3 weight 1: 0.0748 weight 2: 0.124367 
+-------- After epoch 10: --------
+errors: 3 weight 1: 0.0748 weight 2: 0.124367 
+-------- After epoch 11: --------
+errors: 3 weight 1: 0.0748 weight 2: 0.124367 
+-------- After epoch 12: --------
+errors: 3 weight 1: 0.0748 weight 2: 0.124367 
+-------- After epoch 13: --------
+errors: 3 weight 1: 0.0748 weight 2: 0.124367 
+-------- After epoch 14: --------
+errors: 3 weight 1: 0.0748 weight 2: 0.124367 
+-------- After epoch 15: --------
+errors: 3 weight 1: 0.0748 weight 2: 0.124367 
+-------- After epoch 16: --------
+errors: 3 weight 1: 0.0748 weight 2: 0.124367 
+-------- After epoch 17: --------
+errors: 3 weight 1: 0.0748 weight 2: 0.124367 
+-------- After epoch 18: --------
+errors: 3 weight 1: 0.0748 weight 2: 0.124367 
+-------- After epoch 19: --------
+errors: 3 weight 1: 0.0748 weight 2: 0.124367 
+-------- After epoch 20: --------
+errors: 3 weight 1: 0.0748 weight 2: 0.124367 
+-------- After epoch 21: --------
+errors: 3 weight 1: 0.0748 weight 2: 0.124367 
+-------- After epoch 22: --------
+errors: 3 weight 1: 0.0748 weight 2: 0.124367 
+-------- After epoch 23: --------
+errors: 3 weight 1: 0.0748 weight 2: 0.124367 
+-------- After epoch 24: --------
+errors: 3 weight 1: 0.0748 weight 2: 0.124367 
+-------- After epoch 25: --------
+errors: 3 weight 1: 0.0748 weight 2: 0.124367 
+-------- After epoch 26: --------
+errors: 3 weight 1: 0.0748 weight 2: 0.124367 
+-------- After epoch 27: --------
+errors: 3 weight 1: 0.0748 weight 2: 0.124367 
+-------- After epoch 28: --------
+errors: 3 weight 1: 0.0748 weight 2: 0.124367 
+-------- After epoch 29: --------
+errors: 3 weight 1: 0.0748 weight 2: 0.124367 
+
+Goal: AND - cycle:  7
+-------- After epoch 1: --------
+errors: 1 weight 1: -0.2432 weight 2: 0.177874 
+-------- After epoch 2: --------
+errors: 1 weight 1: -0.1432 weight 2: 0.277874 
+-------- After epoch 3: --------
+errors: 1 weight 1: -0.0432 weight 2: 0.377874 
+-------- After epoch 4: --------
+errors: 2 weight 1: 0.0568 weight 2: 0.377874 
+-------- After epoch 5: --------
+errors: 1 weight 1: 0.0568 weight 2: 0.277874 
+-------- After epoch 6: --------
+errors: 0 weight 1: 0.0568 weight 2: 0.277874 
+
+Goal: AND - cycle:  8
+-------- After epoch 1: --------
+errors: 3 weight 1: 0.2843 weight 2: 0.177559 
+-------- After epoch 2: --------
+errors: 3 weight 1: 0.1843 weight 2: 0.077559 
+-------- After epoch 3: --------
+errors: 3 weight 1: 0.0843 weight 2: -0.022441 
+-------- After epoch 4: --------
+errors: 3 weight 1: -0.0157 weight 2: -0.122441 
+-------- After epoch 5: --------
+errors: 3 weight 1: -0.1157 weight 2: -0.222441 
+-------- After epoch 6: --------
+errors: 4 weight 1: -0.1157 weight 2: -0.222441 
+-------- After epoch 7: --------
+errors: 4 weight 1: -0.1157 weight 2: -0.222441 
+-------- After epoch 8: --------
+errors: 4 weight 1: -0.1157 weight 2: -0.222441 
+-------- After epoch 9: --------
+errors: 4 weight 1: -0.1157 weight 2: -0.222441 
+-------- After epoch 10: --------
+errors: 4 weight 1: -0.1157 weight 2: -0.222441 
+-------- After epoch 11: --------
+errors: 4 weight 1: -0.1157 weight 2: -0.222441 
+-------- After epoch 12: --------
+errors: 4 weight 1: -0.1157 weight 2: -0.222441 
+-------- After epoch 13: --------
+errors: 4 weight 1: -0.1157 weight 2: -0.222441 
+-------- After epoch 14: --------
+errors: 4 weight 1: -0.1157 weight 2: -0.222441 
+-------- After epoch 15: --------
+errors: 4 weight 1: -0.1157 weight 2: -0.222441 
+-------- After epoch 16: --------
+errors: 4 weight 1: -0.1157 weight 2: -0.222441 
+-------- After epoch 17: --------
+errors: 4 weight 1: -0.1157 weight 2: -0.222441 
+-------- After epoch 18: --------
+errors: 4 weight 1: -0.1157 weight 2: -0.222441 
+-------- After epoch 19: --------
+errors: 4 weight 1: -0.1157 weight 2: -0.222441 
+-------- After epoch 20: --------
+errors: 4 weight 1: -0.1157 weight 2: -0.222441 
+-------- After epoch 21: --------
+errors: 4 weight 1: -0.1157 weight 2: -0.222441 
+-------- After epoch 22: --------
+errors: 4 weight 1: -0.1157 weight 2: -0.222441 
+-------- After epoch 23: --------
+errors: 4 weight 1: -0.1157 weight 2: -0.222441 
+-------- After epoch 24: --------
+errors: 4 weight 1: -0.1157 weight 2: -0.222441 
+-------- After epoch 25: --------
+errors: 4 weight 1: -0.1157 weight 2: -0.222441 
+-------- After epoch 26: --------
+errors: 4 weight 1: -0.1157 weight 2: -0.222441 
+-------- After epoch 27: --------
+errors: 4 weight 1: -0.1157 weight 2: -0.222441 
+-------- After epoch 28: --------
+errors: 4 weight 1: -0.1157 weight 2: -0.222441 
+-------- After epoch 29: --------
+errors: 4 weight 1: -0.1157 weight 2: -0.222441 
+
+Goal: AND - cycle:  9
+-------- After epoch 1: --------
+errors: 1 weight 1: 0.0728 weight 2: 0.364697 
+-------- After epoch 2: --------
+errors: 1 weight 1: 0.0728 weight 2: 0.264697 
+-------- After epoch 3: --------
+errors: 1 weight 1: 0.0728 weight 2: 0.164697 
+-------- After epoch 4: --------
+errors: 1 weight 1: 0.0728 weight 2: 0.064697 
+-------- After epoch 5: --------
+errors: 0 weight 1: 0.0728 weight 2: 0.064697 
+
+Goal: AND - cycle:  10
+-------- After epoch 1: --------
+errors: 2 weight 1: 0.4504 weight 2: -0.002409 
+-------- After epoch 2: --------
+errors: 2 weight 1: 0.4504 weight 2: 0.097591 
+-------- After epoch 3: --------
+errors: 1 weight 1: 0.3504 weight 2: 0.097591 
+-------- After epoch 4: --------
+errors: 0 weight 1: 0.3504 weight 2: 0.097591 
+Goal: OR - cycle:  1
+-------- After epoch 1: --------
+errors: 2 weight 1: -0.1009 weight 2: 0.541255 
+-------- After epoch 2: --------
+errors: 1 weight 1: -0.0009 weight 2: 0.541255 
+-------- After epoch 3: --------
+errors: 1 weight 1: 0.0991 weight 2: 0.541255 
+-------- After epoch 4: --------
+errors: 1 weight 1: 0.1991 weight 2: 0.541255 
+-------- After epoch 5: --------
+errors: 1 weight 1: 0.2991 weight 2: 0.541255 
+-------- After epoch 6: --------
+errors: 1 weight 1: 0.3991 weight 2: 0.541255 
+-------- After epoch 7: --------
+errors: 0 weight 1: 0.3991 weight 2: 0.541255 
+Goal: OR - cycle:  2
+-------- After epoch 1: --------
+errors: 4 weight 1: -0.2991 weight 2: -0.003681 
+-------- After epoch 2: --------
+errors: 3 weight 1: -0.0991 weight 2: 0.096319 
+-------- After epoch 3: --------
+errors: 1 weight 1: -0.0991 weight 2: 0.096319 
+-------- After epoch 4: --------
+errors: 1 weight 1: -0.0991 weight 2: 0.096319 
+-------- After epoch 5: --------
+errors: 1 weight 1: -0.0991 weight 2: 0.096319 
+-------- After epoch 6: --------
+errors: 1 weight 1: -0.0991 weight 2: 0.096319 
+-------- After epoch 7: --------
+errors: 1 weight 1: -0.0991 weight 2: 0.096319 
+-------- After epoch 8: --------
+errors: 1 weight 1: -0.0991 weight 2: 0.096319 
+-------- After epoch 9: --------
+errors: 1 weight 1: -0.0991 weight 2: 0.096319 
+-------- After epoch 10: --------
+errors: 1 weight 1: -0.0991 weight 2: 0.096319 
+-------- After epoch 11: --------
+errors: 1 weight 1: -0.0991 weight 2: 0.096319 
+-------- After epoch 12: --------
+errors: 1 weight 1: -0.0991 weight 2: 0.096319 
+-------- After epoch 13: --------
+errors: 1 weight 1: -0.0991 weight 2: 0.096319 
+-------- After epoch 14: --------
+errors: 1 weight 1: -0.0991 weight 2: 0.096319 
+-------- After epoch 15: --------
+errors: 1 weight 1: -0.0991 weight 2: 0.096319 
+-------- After epoch 16: --------
+errors: 1 weight 1: -0.0991 weight 2: 0.096319 
+-------- After epoch 17: --------
+errors: 1 weight 1: -0.0991 weight 2: 0.096319 
+-------- After epoch 18: --------
+errors: 1 weight 1: -0.0991 weight 2: 0.096319 
+-------- After epoch 19: --------
+errors: 1 weight 1: -0.0991 weight 2: 0.096319 
+-------- After epoch 20: --------
+errors: 1 weight 1: -0.0991 weight 2: 0.096319 
+-------- After epoch 21: --------
+errors: 1 weight 1: -0.0991 weight 2: 0.096319 
+-------- After epoch 22: --------
+errors: 1 weight 1: -0.0991 weight 2: 0.096319 
+-------- After epoch 23: --------
+errors: 1 weight 1: -0.0991 weight 2: 0.096319 
+-------- After epoch 24: --------
+errors: 1 weight 1: -0.0991 weight 2: 0.096319 
+-------- After epoch 25: --------
+errors: 1 weight 1: -0.0991 weight 2: 0.096319 
+-------- After epoch 26: --------
+errors: 1 weight 1: -0.0991 weight 2: 0.096319 
+-------- After epoch 27: --------
+errors: 1 weight 1: -0.0991 weight 2: 0.096319 
+-------- After epoch 28: --------
+errors: 1 weight 1: -0.0991 weight 2: 0.096319 
+-------- After epoch 29: --------
+errors: 1 weight 1: -0.0991 weight 2: 0.096319 
+Goal: OR - cycle:  3
+-------- After epoch 1: --------
+errors: 4 weight 1: -0.2911 weight 2: 0.049542 
+-------- After epoch 2: --------
+errors: 3 weight 1: -0.0911 weight 2: 0.149542 
+-------- After epoch 3: --------
+errors: 1 weight 1: -0.0911 weight 2: 0.149542 
+-------- After epoch 4: --------
+errors: 1 weight 1: -0.0911 weight 2: 0.149542 
+-------- After epoch 5: --------
+errors: 1 weight 1: -0.0911 weight 2: 0.149542 
+-------- After epoch 6: --------
+errors: 1 weight 1: -0.0911 weight 2: 0.149542 
+-------- After epoch 7: --------
+errors: 1 weight 1: -0.0911 weight 2: 0.149542 
+-------- After epoch 8: --------
+errors: 1 weight 1: -0.0911 weight 2: 0.149542 
+-------- After epoch 9: --------
+errors: 1 weight 1: -0.0911 weight 2: 0.149542 
+-------- After epoch 10: --------
+errors: 1 weight 1: -0.0911 weight 2: 0.149542 
+-------- After epoch 11: --------
+errors: 1 weight 1: -0.0911 weight 2: 0.149542 
+-------- After epoch 12: --------
+errors: 1 weight 1: -0.0911 weight 2: 0.149542 
+-------- After epoch 13: --------
+errors: 1 weight 1: -0.0911 weight 2: 0.149542 
+-------- After epoch 14: --------
+errors: 1 weight 1: -0.0911 weight 2: 0.149542 
+-------- After epoch 15: --------
+errors: 1 weight 1: -0.0911 weight 2: 0.149542 
+-------- After epoch 16: --------
+errors: 1 weight 1: -0.0911 weight 2: 0.149542 
+-------- After epoch 17: --------
+errors: 1 weight 1: -0.0911 weight 2: 0.149542 
+-------- After epoch 18: --------
+errors: 1 weight 1: -0.0911 weight 2: 0.149542 
+-------- After epoch 19: --------
+errors: 1 weight 1: -0.0911 weight 2: 0.149542 
+-------- After epoch 20: --------
+errors: 1 weight 1: -0.0911 weight 2: 0.149542 
+-------- After epoch 21: --------
+errors: 1 weight 1: -0.0911 weight 2: 0.149542 
+-------- After epoch 22: --------
+errors: 1 weight 1: -0.0911 weight 2: 0.149542 
+-------- After epoch 23: --------
+errors: 1 weight 1: -0.0911 weight 2: 0.149542 
+-------- After epoch 24: --------
+errors: 1 weight 1: -0.0911 weight 2: 0.149542 
+-------- After epoch 25: --------
+errors: 1 weight 1: -0.0911 weight 2: 0.149542 
+-------- After epoch 26: --------
+errors: 1 weight 1: -0.0911 weight 2: 0.149542 
+-------- After epoch 27: --------
+errors: 1 weight 1: -0.0911 weight 2: 0.149542 
+-------- After epoch 28: --------
+errors: 1 weight 1: -0.0911 weight 2: 0.149542 
+-------- After epoch 29: --------
+errors: 1 weight 1: -0.0911 weight 2: 0.149542 
+Goal: OR - cycle:  4
+-------- After epoch 1: --------
+errors: 0 weight 1: 0.3129 weight 2: 0.45744 
+Goal: OR - cycle:  5
+-------- After epoch 1: --------
+errors: 2 weight 1: 0.4183 weight 2: 0.43429 
+-------- After epoch 2: --------
+errors: 2 weight 1: 0.5183 weight 2: 0.53429 
+-------- After epoch 3: --------
+errors: 0 weight 1: 0.5183 weight 2: 0.53429 
+Goal: OR - cycle:  6
+-------- After epoch 1: --------
+errors: 1 weight 1: -0.2633 weight 2: 0.021261 
+-------- After epoch 2: --------
+errors: 1 weight 1: -0.2633 weight 2: 0.021261 
+-------- After epoch 3: --------
+errors: 1 weight 1: -0.2633 weight 2: 0.021261 
+-------- After epoch 4: --------
+errors: 1 weight 1: -0.2633 weight 2: 0.021261 
+-------- After epoch 5: --------
+errors: 1 weight 1: -0.2633 weight 2: 0.021261 
+-------- After epoch 6: --------
+errors: 1 weight 1: -0.2633 weight 2: 0.021261 
+-------- After epoch 7: --------
+errors: 1 weight 1: -0.2633 weight 2: 0.021261 
+-------- After epoch 8: --------
+errors: 1 weight 1: -0.2633 weight 2: 0.021261 
+-------- After epoch 9: --------
+errors: 1 weight 1: -0.2633 weight 2: 0.021261 
+-------- After epoch 10: --------
+errors: 1 weight 1: -0.2633 weight 2: 0.021261 
+-------- After epoch 11: --------
+errors: 1 weight 1: -0.2633 weight 2: 0.021261 
+-------- After epoch 12: --------
+errors: 1 weight 1: -0.2633 weight 2: 0.021261 
+-------- After epoch 13: --------
+errors: 1 weight 1: -0.2633 weight 2: 0.021261 
+-------- After epoch 14: --------
+errors: 1 weight 1: -0.2633 weight 2: 0.021261 
+-------- After epoch 15: --------
+errors: 1 weight 1: -0.2633 weight 2: 0.021261 
+-------- After epoch 16: --------
+errors: 1 weight 1: -0.2633 weight 2: 0.021261 
+-------- After epoch 17: --------
+errors: 1 weight 1: -0.2633 weight 2: 0.021261 
+-------- After epoch 18: --------
+errors: 1 weight 1: -0.2633 weight 2: 0.021261 
+-------- After epoch 19: --------
+errors: 1 weight 1: -0.2633 weight 2: 0.021261 
+-------- After epoch 20: --------
+errors: 1 weight 1: -0.2633 weight 2: 0.021261 
+-------- After epoch 21: --------
+errors: 1 weight 1: -0.2633 weight 2: 0.021261 
+-------- After epoch 22: --------
+errors: 1 weight 1: -0.2633 weight 2: 0.021261 
+-------- After epoch 23: --------
+errors: 1 weight 1: -0.2633 weight 2: 0.021261 
+-------- After epoch 24: --------
+errors: 1 weight 1: -0.2633 weight 2: 0.021261 
+-------- After epoch 25: --------
+errors: 1 weight 1: -0.2633 weight 2: 0.021261 
+-------- After epoch 26: --------
+errors: 1 weight 1: -0.2633 weight 2: 0.021261 
+-------- After epoch 27: --------
+errors: 1 weight 1: -0.2633 weight 2: 0.021261 
+-------- After epoch 28: --------
+errors: 1 weight 1: -0.2633 weight 2: 0.021261 
+-------- After epoch 29: --------
+errors: 1 weight 1: -0.2633 weight 2: 0.021261 
+Goal: OR - cycle:  7
+-------- After epoch 1: --------
+errors: 1 weight 1: -0.2742 weight 2: 0.143638 
+-------- After epoch 2: --------
+errors: 1 weight 1: -0.2742 weight 2: 0.143638 
+-------- After epoch 3: --------
+errors: 1 weight 1: -0.2742 weight 2: 0.143638 
+-------- After epoch 4: --------
+errors: 1 weight 1: -0.2742 weight 2: 0.143638 
+-------- After epoch 5: --------
+errors: 1 weight 1: -0.2742 weight 2: 0.143638 
+-------- After epoch 6: --------
+errors: 1 weight 1: -0.2742 weight 2: 0.143638 
+-------- After epoch 7: --------
+errors: 1 weight 1: -0.2742 weight 2: 0.143638 
+-------- After epoch 8: --------
+errors: 1 weight 1: -0.2742 weight 2: 0.143638 
+-------- After epoch 9: --------
+errors: 1 weight 1: -0.2742 weight 2: 0.143638 
+-------- After epoch 10: --------
+errors: 1 weight 1: -0.2742 weight 2: 0.143638 
+-------- After epoch 11: --------
+errors: 1 weight 1: -0.2742 weight 2: 0.143638 
+-------- After epoch 12: --------
+errors: 1 weight 1: -0.2742 weight 2: 0.143638 
+-------- After epoch 13: --------
+errors: 1 weight 1: -0.2742 weight 2: 0.143638 
+-------- After epoch 14: --------
+errors: 1 weight 1: -0.2742 weight 2: 0.143638 
+-------- After epoch 15: --------
+errors: 1 weight 1: -0.2742 weight 2: 0.143638 
+-------- After epoch 16: --------
+errors: 1 weight 1: -0.2742 weight 2: 0.143638 
+-------- After epoch 17: --------
+errors: 1 weight 1: -0.2742 weight 2: 0.143638 
+-------- After epoch 18: --------
+errors: 1 weight 1: -0.2742 weight 2: 0.143638 
+-------- After epoch 19: --------
+errors: 1 weight 1: -0.2742 weight 2: 0.143638 
+-------- After epoch 20: --------
+errors: 1 weight 1: -0.2742 weight 2: 0.143638 
+-------- After epoch 21: --------
+errors: 1 weight 1: -0.2742 weight 2: 0.143638 
+-------- After epoch 22: --------
+errors: 1 weight 1: -0.2742 weight 2: 0.143638 
+-------- After epoch 23: --------
+errors: 1 weight 1: -0.2742 weight 2: 0.143638 
+-------- After epoch 24: --------
+errors: 1 weight 1: -0.2742 weight 2: 0.143638 
+-------- After epoch 25: --------
+errors: 1 weight 1: -0.2742 weight 2: 0.143638 
+-------- After epoch 26: --------
+errors: 1 weight 1: -0.2742 weight 2: 0.143638 
+-------- After epoch 27: --------
+errors: 1 weight 1: -0.2742 weight 2: 0.143638 
+-------- After epoch 28: --------
+errors: 1 weight 1: -0.2742 weight 2: 0.143638 
+-------- After epoch 29: --------
+errors: 1 weight 1: -0.2742 weight 2: 0.143638 
+Goal: OR - cycle:  8
+-------- After epoch 1: --------
+errors: 0 weight 1: 0.3779 weight 2: 0.348998 
+Goal: OR - cycle:  9
+-------- After epoch 1: --------
+errors: 2 weight 1: 0.2826 weight 2: 0.469065 
+-------- After epoch 2: --------
+errors: 2 weight 1: 0.3826 weight 2: 0.569065 
+-------- After epoch 3: --------
+errors: 1 weight 1: 0.4826 weight 2: 0.569065 
+-------- After epoch 4: --------
+errors: 1 weight 1: 0.5826 weight 2: 0.569065 
+-------- After epoch 5: --------
+errors: 0 weight 1: 0.5826 weight 2: 0.569065 
+Goal: OR - cycle:  10
+-------- After epoch 1: --------
+errors: 1 weight 1: 0.4251 weight 2: 0.249314 
+-------- After epoch 2: --------
+errors: 1 weight 1: 0.4251 weight 2: 0.349314 
+-------- After epoch 3: --------
+errors: 0 weight 1: 0.4251 weight 2: 0.349314 
