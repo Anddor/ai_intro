@@ -1,5 +1,4 @@
 import neuron
-import sys
 
 __author__ = 'Andreas'
 
