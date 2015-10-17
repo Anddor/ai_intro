@@ -1,6 +1,6 @@
 import copy
 from math import ceil
-
+from random import sample
 
 # Problem: Egg carton
 
@@ -13,11 +13,17 @@ class EggCarton(object):
         self.n = n  # columns
         self.k = k  # constraint
         self.target = 1  # point at which we are satisfied
+        self.full_set = set()
+        for x in range(self.m):
+            for y in range(self.n):
+                self.full_set.add((x, y))
 
     @property
     def get_start(self):
         # create valid start position with zero eggs
-        return []
+
+        solution_set = set()
+        return solution_set
 
     def collision_test(self, solution):
         """Counts the number of eggs in each row, column and diagonal"""
@@ -28,8 +34,8 @@ class EggCarton(object):
         left_diagonal_list = [0] * (self.m + self.n - 1)
 
         for egg in solution:
-            row_list[egg[0]] += 1
-            col_list[egg[1]] += 1
+            col_list[egg[0]] += 1
+            row_list[egg[1]] += 1
             right_diagonal_list[egg[0] - egg[1] + normal_right] += 1
             left_diagonal_list[egg[0] + egg[1]] += 1
 
@@ -44,11 +50,15 @@ class EggCarton(object):
         coin_flip = randint(0, 1)
         neighbor = copy.deepcopy(state)
         if coin_flip and state:  # list with len() > 0 resolves to True
-            neighbor.pop(randint(0, len(neighbor) - 1))  # Remove one random egg
+            neighbor -= set(sample(neighbor, 1)[0])  # Remove one "random" egg
             return neighbor
         else:
-            # Check if in list?
-            neighbor.append((randint(0, self.m - 1), randint(0, self.n - 1)))  # add one egg
+            # make set of free positions
+            free_positions = self.full_set - state
+            if not free_positions:
+                print("no free positions!")
+            # Pull random from free positions
+            neighbor.add(sample(free_positions, 1)[0])  # add one egg
             return neighbor
 
     def generate_neighbors(self, state, number):
@@ -60,12 +70,15 @@ class EggCarton(object):
         return neighbors
 
     def obj_function(self, solution):
-        """Returns a rating [0,1] on the quality on the solution"""
+        """Returns a rating [0, 1] on the quality on the solution"""
         if self.collision_test(solution):
             # an invalid board returns 0
+            print(solution, 0)
             return 0
         else:
             # valid boards returns egg amount divided by the total achievable eggs
-            goal = min(self.m, self.n) * self.k
-            eggs = len(solution)
-            return eggs / goal
+            goal = float(min(self.m, self.n) * self.k)
+            eggs = float(len(solution))
+            egg_ratio = min(eggs / goal, 1)
+            print(solution, egg_ratio)
+            return egg_ratio
