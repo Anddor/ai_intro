@@ -7,13 +7,13 @@ __author__ = 'anddor'
 
 
 def main():
-    m = 10  # rows
-    n = 10  # columns
-    k = 6  # allowed collisions
+    m = 5  # rows
+    n = 5  # columns
+    k = 4  # allowed collisions
 
     problem = egg_carton.EggCarton(m, n, k)  # create problem object
 
-    solution = sa.sa_algorithm(problem, 0.4, 0.000001)  # run algorithm and return solution
+    solution = sa.sa_algorithm(problem, 0.4, 0.00001)  # run algorithm and return solution
     print(solution)
 
     #  Draw imager

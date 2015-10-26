@@ -1,15 +1,15 @@
+__author__ = 'anddor'
+
 from PIL import Image, ImageDraw, ImageFont
 import os
 
-__author__ = 'anddor'
 
-
-class BoardImgGen(object):
+class Board_img_gen(object):
     """When initialized, the class will contain an empty board. All further methods will modify this image."""
 
     def __init__(self, world_width, world_height, square_size=50):
         """initializes an empty board of the given width and height, with given square size."""
-        super(BoardImgGen, self).__init__()
+        super(Board_img_gen, self).__init__()
         self.square_size = square_size
         self.width = world_width
         self.height = world_height
@@ -26,7 +26,7 @@ class BoardImgGen(object):
         return img
 
     def draw_world(self):
-        """draws the grid unto the image"""
+        """draws the world (terrain/background) unto the image"""
         x = 0
         y = 0
         for y in range(self.width):

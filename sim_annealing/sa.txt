@@ -21,8 +21,7 @@ def sa_algorithm(problem, temp, d_temp):
             # If the value is "good enough", we return.
             return p
 
-        neighbors = problem.generate_neighbors(p, 5)  # generates 30 neighbors of the given state p
-        neighbors.append(p)
+        neighbors = problem.generate_neighbors(p, 30)  # generates 30 neighbors of the given state p
         p_max = max(neighbors, key=problem.obj_function)  # p_max is the current best next solution
         # How much better the new solution is:
         q = (problem.obj_function(p_max) - value) / max(value, 0.00000001)  # max() to avoid divide by zero
